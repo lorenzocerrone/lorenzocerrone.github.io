@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Lorenzo Cerrone"
 title_separator          : ""
 name                     : &name "Lorenzo Cerrone"
-description              : &description "Scientific Software Developer | Computer Vision Researcher"
+description              : &description "Scientific Software Developer & Computer Vision Researcher"
 url                      : https://lorenzocerrone.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lorenzocerrone/lorenzocerrone.github.io"
@@ -21,10 +21,10 @@ repository               : "lorenzocerrone/lorenzocerrone.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Lorenzo Cerrone"
+  avatar           : "Headshot_2.jpg"
+  name             : "Lorenzo Cerrone, PhD"
   pronouns         : "he/him"
-  bio              : "Scientific Software Developer | Computer Vision Researcher"
+  bio              : "Scientific Software Developer & Computer Vision Researcher"
   location         : "Zurich, Switzerland"
   employer         : #"Red Brick University"
   uri              : # URL
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "lorenzo-cerrone"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : #"UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          : "lorenzocerrone"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -119,7 +119,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "lorenzocerrone"
 facebook:
   username               :
   app_id                 :
@@ -204,9 +204,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -220,7 +217,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -236,7 +233,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -245,16 +242,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS

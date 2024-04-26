@@ -127,8 +127,7 @@ This tag will let you <strike>strikeout text</strike>.
 
 ### Emphasize Tag
 
-The emphasize tag should _italicize_ text.
-
+The emphasize tagLorenzo_Cerrone_
 ### Insert Tag
 
 This tag should denote <ins>inserted</ins> text.
